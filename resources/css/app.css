@@ -1,0 +1,12 @@
+.title {
+    font-size: 13px;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5em;
+}
+
