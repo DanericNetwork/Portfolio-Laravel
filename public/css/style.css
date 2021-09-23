@@ -9,18 +9,57 @@
 
 body {
   background-color: #f8f9fa;
-  display: flex;
   color: #515365;
   font-family: tommy;
   max-width: 100%;
 }
 
+.numcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-flow:row wrap;
+  max-width: 80%;
+  margin: auto;
+
+}
+
 .numcard {
   background-color: #1c7fe2;
   border-radius: 10px;
-  padding: 1rem;
-  max-height: 1rem;
-  width: 10%;
+  
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  /* background-image: url('https://daneric.dev/images/logo.jpg');
+  background-size: 100% 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  background-image: url('https://i.imgur.com/lL6tQfy.png');
+  width: 1200px;
+  height: 800px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.numdetails {
+
 }
 
 
@@ -41,62 +80,6 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
-
-/* Navbar */
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 2.5em;
-}
-
-.navbar-module {
-    margin: 0;
-  }
-  
-  .navbar-module ul li a, .navbar-module ul li a svg {
-    font-weight: 700;
-    font-size: 125%;
-    color: #f5554f;
-  }
-  
-  .navbar-module ul:first-child a, .navbar-module ul:first-child a svg {
-    padding-left: 0;
-  }
-  
-  .navbar-module ul li, .navbar-module ul li a svg {
-    display: inline;
-  }
-  
-  .navbar-item {
-    outline: none;
-    text-align: center;
-    text-decoration: none;
-    margin: 2px;
-    padding: .3em .8em;
-    border: 2px solid transparent;
-    border-radius: 6px;
-    font-weight: 700;
-    font-size: 22.5px;
-  }
-  
-  .contact-item {
-    color: #5e72e4;
-    outline: none;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    margin: 2px;
-    padding: .3em .8em;
-    border: 2px solid transparent;
-    border-radius: 6px;
-    font-weight: 700;
-    font-size: 22.5px;
-  }
-  
-  .navbar-socials {
-    margin: 0;
-  }
 
   .button {
     background-color: #4CAF50; /* Green */
@@ -172,24 +155,6 @@ a, a:hover, a:focus, a:active {
    max-width: 33%;
 }
 
-/* New Navbar */
-.navbarnew {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 2.5em;
-    flex-direction: row;
-}
-
-.navbarnew-module {
-    margin: 0;
-    padding: 1rem;
-}
-
-.navbarnew-socials {
-    margin: 0;
-    justify-content: flex-end;
-}
-
 /* Footer */
 .footer {
   padding: 10px 30px 10px 30px;
@@ -239,5 +204,85 @@ a, a:hover, a:focus, a:active {
   .image-test {
     max-width: 80%;
     margin-left: 0;
+  }
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1d1c39;
+  font-family: tommy;
+  color: #fafafa;
+  text-align: left;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  border-radius: 8px;
+  width: 90%;
+  margin: auto;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+  float: left;
+  font-size: 17px;
+  border-left: 3px solid #bbb;
+}
+
+ul.topnav li a.active {
+  background-color: #00247D;
+  color: white;
+}
+
+ul.topnav li.social-icons {
+  float: right;
+}
+
+.nav-btn {
+  border-radius: 10px;
+}
+
+.nav-btn:hover:not(.active), .social-icons:hover:not(.active) {
+  color: #494949;
+}
+
+.navtop {
+  float: left;
+  display: flex;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.imgnav {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.navbar-brand-name {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #060818;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  ul.topnav li {
+      width: 100%;
+  }
+  ul.topnav a {
+      width: 100%;
   }
 }

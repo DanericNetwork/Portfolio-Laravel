@@ -10,10 +10,12 @@
 </head>
 <body>
     <h1>Row</h1>
-
+<div class="numcontainer">
     @for($i = 0; $i <= $rows; $i++)
-    <div class="numcard">{{$i}}</div>
-
+    <div class="numcard">
+    <a class="numdetails">{{$i}}</a>
+    </div>
     @endfor
+</div>
 </body>
 </html>
