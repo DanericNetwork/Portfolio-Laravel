@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daneric - About</title>
-    <link rel="shortcut icon" type="image/jpg" href="https://daneric.dev/images/logo.jpg">
+    <link rel="shortcut icon" type="image/jpg" href="https://daneric.dev/images/Logo.png">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://pro.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
 </head>
 <body>
     <nav>
         <ul class="navtop">
-            <li><a class="navbar-brand" href="index.html"><img src="https://daneric.dev/images/logo.jpg" class="imgnav"><span class="navbar-brand-name">Daneric Aalbers</span></a></li>
+            <li><a class="navbar-brand" href="index.html"><img src="https://daneric.dev/images/Logo.png" class="imgnav"><span class="navbar-brand-name">Daneric Aalbers</span></a></li>
         </ul>
     </nav>
     <nav>
@@ -30,7 +30,7 @@
     </nav>
     <div class="about">
         <p class="text-test">Hey! Ik ben Daneric, 17 jaar en ik maak bots voor het chat plaform Discord. Naast het maken van Discord bots maak ik ook websites.</p>
-        <img class="image-test" src="https://daneric.dev/images/logo.jpg">
+        <img class="image-test" src="https://daneric.dev/images/Logo.png">
     </div>
 </body>
 </html>
