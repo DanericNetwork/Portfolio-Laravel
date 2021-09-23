@@ -241,8 +241,8 @@ ul.topnav li a {
 }
 
 ul.topnav li a.active {
-  background-color: #00247D;
-  color: white;
+  /* background-color: #00247D; */
+  color: #25d5e4;
 }
 
 ul.topnav li.social-icons {
@@ -254,7 +254,7 @@ ul.topnav li.social-icons {
 }
 
 .nav-btn:hover:not(.active), .social-icons:hover:not(.active) {
-  color: #494949;
+  color: #747474;
 }
 
 .navtop {
