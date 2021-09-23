@@ -237,7 +237,7 @@ ul.topnav li a {
   text-decoration: none;
   float: left;
   font-size: 17px;
-  border-left: 3px solid #bbb;
+  /* border-left: 3px solid #bbb; */
 }
 
 ul.topnav li a.active {
