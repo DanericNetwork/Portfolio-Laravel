@@ -17,8 +17,8 @@
     </nav>
     <nav>
         <ul class="topnav">
-            <li><a class="nav-btn active" href="#">Home</a></li>
-            <li><a class="nav-btn" href="#">Home</a></li>
+            <li><a class="nav-btn active" href="/">Home</a></li>
+            <li><a class="nav-btn" href="/about">Over mij</a></li>
             <li><a class="nav-btn" href="#">Home</a></li>
             <li><a class="nav-btn" href="#">Home</a></li>
             <li><a class="nav-btn" href="#">Home</a></li>
@@ -29,10 +29,6 @@
             </li>
         </ul>
     </nav>
-    <center>
-    <h1 class="title">@lang('navbar.projects')</h1>
-    <h3 class="title">You fix?</h3>
-    </center>
     
 
     <div class="about">
@@ -41,7 +37,7 @@
     </div>
     
 <div class="card">
-    <a href="/fix" class="btn btn-primary">Fix</a>
+    <a href="https://doei.nl" class="btn btn-primary">doei</a>
 </div>
 
 

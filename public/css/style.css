@@ -141,6 +141,7 @@ a, a:hover, a:focus, a:active {
   justify-content: center;
   align-items: center;
   align-content: space-between;
+  margin-top: 50px;
 }
 
 .image-test {
