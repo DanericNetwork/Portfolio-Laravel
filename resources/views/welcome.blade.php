@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daneric - Portfolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://daneric.dev/images/logo.jpg">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://pro.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
