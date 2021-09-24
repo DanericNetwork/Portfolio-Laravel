@@ -21,10 +21,10 @@
             <li><a class="nav-btn active" href="/about">Over mij</a></li>
             <li><a class="nav-btn" href="/projects">Projecten</a></li>
             <li class="social-icons">
-                <a class="center" href="https://discord.gg/vX2DCW6"><i class="fab fa-discord"></i></a>
+                <a class="center" href="https://discord.gg/vX2DCW6" target="_blank"><i class="fab fa-discord"></i></a>
             </li>
             <li class="social-icons">
-                <a class="center" href="https://github.com/danericnetwork"><i class="fab fa-github"></i></a>
+                <a class="center" href="https://github.com/danericnetwork" target="_blank"><i class="fab fa-github"></i></a>
             </li>
         </ul>
     </nav>

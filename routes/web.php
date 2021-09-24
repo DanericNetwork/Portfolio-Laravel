@@ -26,3 +26,5 @@ Route::get('/fix', function () {
 });
 
 Route::get('/row', [\App\Http\Controllers\RowController::class, 'rowItems']);
+
+Route::get('/test', [\App\Http\Controllers\DayController::class, 'day']);

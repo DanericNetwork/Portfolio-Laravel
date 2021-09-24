@@ -22,20 +22,22 @@
             <li><a class="nav-btn" href="/about">Over mij</a></li>
             <li><a class="nav-btn" href="/projects">Projecten</a></li>
             <li class="social-icons">
-                <a class="center" href="https://discord.gg/vX2DCW6"><i class="fab fa-discord"></i></a>
+                <a class="center" href="https://discord.gg/vX2DCW6" target="_blank"><i class="fab fa-discord"></i></a>
             </li>
             <li class="social-icons">
-                <a class="center" href="https://github.com/danericnetwork"><i class="fab fa-github"></i></a>
+                <a class="center" href="https://github.com/danericnetwork" target="_blank"><i class="fab fa-github"></i></a>
             </li>
         </ul>
     </nav>
     
 
     <div class="about">
-        <p class="text-test">Hey! Ik ben Daneric, 17 jaar en ik maak bots voor het chat plaform Discord. Naast het maken van Discord bots maak ik ook websites.</p>
+        <div class="about-text">
+            <h1 class="header-text">Daneric</h1>
+            <p class="text-test">Hey! Ik ben Daneric, 17 jaar en ik maak bots voor het chat plaform Discord. Naast het maken van Discord bots maak ik ook websites.</p>
+        </div>
         <img class="image-test" src="https://daneric.dev/images/Logo.png">
     </div>
-    
 <div class="card">
     <a href="https://doei.nl" class="btn btn-primary">doei</a>
 </div>

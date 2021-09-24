@@ -136,12 +136,15 @@ a, a:hover, a:focus, a:active {
         border-color: #1b55e2;
     }
 
+/* About section */
+
 .about {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: space-between;
-  margin-top: 50px;
+  align-content: space-evenly;
+  margin: 50px auto;
+  width: 90%;
 }
 
 .image-test {
@@ -153,7 +156,15 @@ a, a:hover, a:focus, a:active {
 }
 
 .text-test {
-   max-width: 33%;
+}
+
+.header-text {
+  font-size: 2em;
+  font-family: tommy;
+}
+
+.about-text {
+  flex-direction: column;
 }
 
 /* Footer */
