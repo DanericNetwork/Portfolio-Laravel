@@ -272,6 +272,11 @@ ul.topnav li.social-icons {
   float: right;
 }
 
+ul.socials {
+  flex-direction: row;
+  list-style-type: none;
+}
+
 .nav-btn {
   border-radius: 10px;
 }
