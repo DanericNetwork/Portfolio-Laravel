@@ -144,7 +144,7 @@ a, a:hover, a:focus, a:active {
   align-items: center;
   align-content: space-evenly;
   margin: 50px auto;
-  width: 90%;
+  width: 80%;
 }
 
 .image-test {
@@ -156,6 +156,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .text-test {
+  max-width: 60%;
 }
 
 .header-text {
