@@ -147,7 +147,7 @@ a, a:hover, a:focus, a:active {
   width: 80%;
 }
 
-.image-test {
+.image-about {
   max-width: 33%;
   max-height: 320px;
   margin-left: 20%;
@@ -155,8 +155,19 @@ a, a:hover, a:focus, a:active {
   box-shadow: 0px 0px 15px -3px #000000;
 }
 
-.text-test {
+.text-about {
   max-width: 60%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-evenly;
+  margin: 50px auto;
+}
+
+.info-text {
 }
 
 .header-text {

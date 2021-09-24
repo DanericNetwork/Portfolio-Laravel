@@ -31,12 +31,12 @@
     </nav>
     
 
-    <div class="about">
+    <div class="info">
         <div class="about-text">
             <h1 class="header-text">Daneric</h1>
-            <p class="text-test">Hey! Ik ben Daneric, 17 jaar en ik maak bots voor het chat plaform Discord. Naast het maken van Discord bots maak ik ook websites.</p>
+            <h3 class="info-text">HTML, CSS & JavaScript Developer</h3>
         </div>
-        <img class="image-test" src="https://daneric.dev/images/Logo.png">
+        <img class="image-about" src="https://daneric.dev/images/Logo.png">
     </div>
 <div class="card">
     <a href="https://doei.nl" class="btn btn-primary">doei</a>
