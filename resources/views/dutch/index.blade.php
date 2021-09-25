@@ -1,5 +1,5 @@
 @extends('parts.main')
-@section('title', 'Projects')
+@section('title', 'Portfolio')
 @section('content')
     <nav>
         <ul class="navtop">
@@ -8,9 +8,9 @@
     </nav>
     <nav>
         <ul class="topnav">
-            <li><a class="nav-btn" href="/">Home</a></li>
-            <li><a class="nav-btn" href="/about">Over mij</a></li>
-            <li><a class="nav-btn active" href="/projects">Projecten</a></li>
+            <li><a class="nav-btn active" href="/nl/">Home</a></li>
+            <li><a class="nav-btn" href="/nl/about">Over mij</a></li>
+            <li><a class="nav-btn" href="/nl/projects">Projecten</a></li>
             <ul class="socials">
                 <li class="social-icons">
                     <a href="/en/">
@@ -29,25 +29,16 @@
             </ul>
         </ul>
     </nav>
+    
 
-<div class="projects-container">
-    <div class="project">
-
-        <div class="col-6 project-text">
-
-            <a class="project-title" style="color: #34c0eb !important;" href="https://disbots.net/bot/funkie">Funkie</a>
-            <h3 class="project-desc">Uitgebracht op 18th March 2021.</h3>
-            <p class="project-description">Funkie is een multipurpose Discord bot met meer dan 110 servers</p>
-
+    <div class="info">
+        <div class="about-text">
+            <h1 class="header-text">Daneric</h1>
+            <h3 class="info-text">HTML, CSS & JavaScript Developer</h3>
         </div>
-
-        <div class="about-me image wow">
-
-            <img class="right-picture wow skeleton" style="border-radius: 10px;" width="500" src="https://cdn.discordapp.com/banners/563366877028679691/401b24e308a076c5dbb124c4a5d1dfb4.jpg?size=512" alt="Daneric">
-
-        </div>
-
+        <img class="image-about" src="https://daneric.dev/images/Logo.png">
     </div>
- </div>
-
+<div class="card">
+    <a href="https://doei.nl" class="btn btn-primary">doei</a>
+</div>
 @endsection

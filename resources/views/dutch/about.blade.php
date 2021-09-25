@@ -26,9 +26,9 @@
     </nav>
     <nav>
         <ul class="topnav">
-            <li><a class="nav-btn" href="/">Home</a></li>
-            <li><a class="nav-btn active" href="/about">Over mij</a></li>
-            <li><a class="nav-btn" href="/projects">Projecten</a></li>
+            <li><a class="nav-btn" href="/nl/">Home</a></li>
+            <li><a class="nav-btn active" href="/nl/about">Over mij</a></li>
+            <li><a class="nav-btn" href="/nl/projects">Projecten</a></li>
             <ul class="socials">
                 <li class="social-icons">
                     <a href="/en/">
