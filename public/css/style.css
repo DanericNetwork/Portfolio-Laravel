@@ -315,3 +315,40 @@ ul.socials {
       width: 100%;
   }
 }
+
+/* Projects  */
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.col-6 {width: 50%;}
+
+.projects-container {
+  flex: 0 0 auto;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.project-text {
+  max-width: 60%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.project-title {
+  font-size: 2em;
+  font-family: tommy;
+  color: #25d5e4;
+}
+
+.project-desc {
+  font-size: 1em;
+  font-family: tommy;
+  color: #636b75;
+  font-weight: 300;
+}

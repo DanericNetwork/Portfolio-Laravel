@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daneric - Projects</title>
-    <link rel="shortcut icon" type="image/jpg" href="https://daneric.dev/images/Logo.png">
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="https://pro.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
-    <!-- begin of metadata -->
-    <meta property="og:title" content="Daneric">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="/">
-    <meta property="og:image" content="https://daneric.dev/images/Logo.png">
-    <meta property="og:description" content="Daneric's Portfolio">
-    <meta name="theme-color" content="#0362fc">
-    <!-- end of metadata -->
-</head>
-<body>
+@extends('parts.main')
+@section('title', 'Projects')
+@section('content')
     <nav>
         <ul class="navtop">
             <li><a class="navbar-brand"><img src="https://daneric.dev/images/Logo.png" class="imgnav"><span class="navbar-brand-name">Daneric Aalbers</span></a></li>
@@ -41,6 +24,25 @@
             </ul>
         </ul>
     </nav>
-@extends('parts.footer')
-</body>
-</html>
+
+<div class="projects-container">
+    <div class="project">
+
+        <div class="col-6 project-text">
+
+            <a class="project-title" style="color: #34c0eb !important;" href="https://disbots.net/bot/funkie">Funkie</a>
+            <h3 class="project-desc">Uitgebracht op 18th March 2021.</h3>
+            <p class="project-description">Funkie is een multipurpose Discord bot met meer dan 110 servers</p>
+
+        </div>
+
+        <div class="about-me image wow">
+
+            <img class="right-picture wow skeleton" style="border-radius: 10px;" width="500" src="https://cdn.discordapp.com/banners/563366877028679691/401b24e308a076c5dbb124c4a5d1dfb4.jpg?size=512" alt="Daneric">
+
+        </div>
+
+    </div>
+ </div>
+
+@endsection
