@@ -8,11 +8,20 @@
     <link rel="shortcut icon" type="image/jpg" href="https://daneric.dev/images/Logo.png">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://pro.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
+    <!-- begin of metadata -->
+    <meta property="og:title" content="Daneric">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:image" content="https://daneric.dev/images/Logo.png">
+    <meta property="og:description" content="Daneric's Portfolio">
+    <meta name="theme-color" content="#0362fc">
+    <!-- end of metadata -->
+    
 </head>
 <body>
     <nav>
         <ul class="navtop">
-            <li><a class="navbar-brand" href="index.html"><img src="https://daneric.dev/images/Logo.png" class="imgnav"><span class="navbar-brand-name">Daneric Aalbers</span></a></li>
+            <li><a class="navbar-brand"><img src="https://daneric.dev/images/Logo.png" class="imgnav"><span class="navbar-brand-name">Daneric Aalbers</span></a></li>
         </ul>
     </nav>
     <nav>
