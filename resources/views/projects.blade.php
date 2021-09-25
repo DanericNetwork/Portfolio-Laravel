@@ -41,5 +41,6 @@
             </ul>
         </ul>
     </nav>
+@extends('parts.footer')
 </body>
 </html>

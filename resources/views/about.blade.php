@@ -46,5 +46,6 @@
         <p class="text-about">Hey! Ik ben Daneric, 17 jaar en ik maak bots voor het chat plaform Discord. Naast het maken van Discord bots maak ik ook websites.</p>
         <img class="image-about" src="https://daneric.dev/images/Logo.png">
     </div>
+@extends('parts.footer')
 </body>
 </html>
