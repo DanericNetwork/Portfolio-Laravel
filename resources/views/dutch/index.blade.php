@@ -14,7 +14,7 @@
             <ul class="socials">
                 <li class="social-icons">
                     <a href="/en/">
-                        <img class="center language-btn" src="./images/english.png"></img>
+                        <img class="center language-btn" src="../images/english.png"></img>
                     </a>
                 </li>
                 <li class="social-icons">
