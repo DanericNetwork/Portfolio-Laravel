@@ -13,6 +13,11 @@
             <li><a class="nav-btn active" href="/projects">Projecten</a></li>
             <ul class="socials">
                 <li class="social-icons">
+                    <a href="/en/">
+                        <img class="center language-btn" src="./images/english.png"></img>
+                    </a>
+                </li>
+                <li class="social-icons">
                     <a class="center" href="https://twitter.com/danericnetwork" target="_blank"><i class="fab fa-twitter"></i></a>
                 </li>
                 <!-- <li class="social-icons">
