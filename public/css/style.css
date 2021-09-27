@@ -365,6 +365,7 @@ ul.socials {
 .lang-btns {
   flex-direction: row;
   margin: auto;
+  text-align: center;
 }
 
 .langg {
@@ -393,4 +394,13 @@ ul.socials {
   font-size: 40px;
   border-radius: .50rem;
   margin: 10px 20px;
+}
+
+@media screen and (max-width: 420px) {
+  .lang-btns {
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    display: flex;
+  }
 }
