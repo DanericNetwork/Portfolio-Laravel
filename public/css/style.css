@@ -66,6 +66,7 @@ body {
 .title {
     font-family: tommy;
     color: #3b3f5c;
+    text-align: center;
 }
 
 .container {
@@ -357,4 +358,39 @@ ul.socials {
   font-family: tommy;
   color: #636b75;
   font-weight: 300;
+}
+
+/* Home page */
+
+.lang-btns {
+  flex-direction: row;
+  margin: auto;
+}
+
+.langg {
+  display: flex;
+  flex-direction: column;
+}
+
+.lang-title {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.select-lang {
+  font-family: tommy;
+  color: #3b3f5c;
+  text-align: center;
+}
+
+.btn-language {
+  color: #fff !important;
+  background-color: #1b55e2 !important;
+  border-color: #1b55e2;
+  padding: 0.4375rem 1.25rem;
+  text-shadow: none;
+  font-size: 40px;
+  border-radius: .50rem;
+  margin: 10px 20px;
 }
