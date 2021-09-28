@@ -18,7 +18,7 @@
                     </a>
                 </li>
                 <li class="social-icons">
-                    <a class="center" href="https://twitter.com/danericnetwork" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="center" href="https://linkedin.com/in/daneric-aalbers-b75801216" target="_blank"><i class="fab fa-linkedin"></i></a>
                 </li>
                 <!-- <li class="social-icons">
                     <a class="center" href="https://discord.gg/vX2DCW6" target="_blank"><i class="fab fa-discord"></i></a>
