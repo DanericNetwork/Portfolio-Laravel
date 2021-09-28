@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('index');
 });
 
+// Dutch routes
+
 Route::get('/nl', function () {
     return view('dutch.index');
 });
@@ -28,6 +30,24 @@ Route::get('/nl/about', function () {
 Route::get('/nl/projects', function () {
     return view('dutch.projects');
 });
+
+// End of dutch routes
+
+// English routes
+
+Route::get('/en', function () {
+    return view('english.index');
+});
+
+Route::get('/en/about', function () {
+    return view('english.about');
+});
+
+Route::get('/en/projects', function () {
+    return view('english.projects');
+});
+
+
 
 Route::get('/fix', function () {
     return view('fix');

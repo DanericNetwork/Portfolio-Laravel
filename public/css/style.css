@@ -188,6 +188,8 @@ a, a:hover, a:focus, a:active {
   font-size: 12px;
   border-top-left-radius: 6px;
   display: flex;
+  margin: auto;
+  justify-content: center;
 }
 .footer .footer-sec p {
   margin-bottom: 0;
@@ -320,6 +322,11 @@ ul.socials {
   }
   ul.topnav a {
       width: 100%;
+  }
+  ul.topnav li.social-icons {
+      margin: auto;
+      justify-content: center;
+      float: none;
   }
 }
 
