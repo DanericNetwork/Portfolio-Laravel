@@ -29,4 +29,11 @@
         </ul>
     </ul>
 </nav>
+<div class="info">
+    <div class="about-text">
+        <h1 class="header-text">Hi! I'm Daneric</h1>
+        <h3 class="info-text">HTML, CSS & JavaScript Developer</h3>
+    </div>
+    <img class="image-about" src="https://daneric.dev/images/Logo.png">
+</div>
 @endsection

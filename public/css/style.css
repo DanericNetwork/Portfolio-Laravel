@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
     src: url(../fonts/MADETOMMY.otf);
     font-family: tommy;
@@ -6,6 +8,8 @@
     src: url(../fonts/Valorant.ttf);
     font-family: valorant;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
   background-color: #f8f9fa;
@@ -154,6 +158,11 @@ a, a:hover, a:focus, a:active {
   margin-left: 20%;
   border-radius: .5rem;
   box-shadow: 0px 0px 15px -3px #000000;
+  transition: transform .5s ease-in-out;
+}
+
+.image-about:hover {
+  transform: scale(1.02) rotate(1deg);
 }
 
 .text-about {
