@@ -3,7 +3,7 @@
 @section('content')
     <nav>
         <ul class="navtop">
-            <li><a class="navbar-brand"><img src="https://daneric.dev/images/Logo.png" class="imgnav"><span class="navbar-brand-name">Daneric Aalbers</span></a></li>
+            <li><a class="navbar-brand"><img src="../images/logo.png" class="imgnav"><span class="navbar-brand-name">Daneric Aalbers</span></a></li>
         </ul>
     </nav>
     <nav>
@@ -36,7 +36,7 @@
             <h1 class="header-text">Hey! Ik ben Daneric</h1>
             <h3 class="info-text">HTML, CSS & JavaScript Developer</h3>
         </div>
-        <img class="image-about" src="https://daneric.dev/images/Logo.png">
+        <img class="image-about" src="../images/logo.png">
     </div>
 <div class="card">
     <a href="https://doei.nl" class="btn btn-primary">doei</a>

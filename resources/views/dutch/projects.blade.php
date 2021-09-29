@@ -3,7 +3,7 @@
 @section('content')
     <nav>
         <ul class="navtop">
-            <li><a class="navbar-brand"><img src="https://daneric.dev/images/Logo.png" class="imgnav"><span class="navbar-brand-name">Daneric Aalbers</span></a></li>
+            <li><a class="navbar-brand"><img src="../images/logo.png" class="imgnav"><span class="navbar-brand-name">Daneric Aalbers</span></a></li>
         </ul>
     </nav>
     <nav>
