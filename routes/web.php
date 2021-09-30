@@ -47,7 +47,7 @@ Route::get('/en/projects', function () {
     return view('english.projects');
 });
 
-
+// End of english routes
 
 Route::get('/fix', function () {
     return view('fix');

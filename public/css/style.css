@@ -296,11 +296,15 @@ ul.topnav li a.active {
 
 ul.topnav li.social-icons {
   float: right;
+  list-style: none;
+  padding-left: 0;
 }
 
 ul.socials {
   flex-direction: row;
   list-style-type: none;
+  list-style: none;
+  padding-left: 0;
 }
 
 .language-btn {
