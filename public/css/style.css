@@ -18,6 +18,19 @@ body {
   max-width: 100%;
 }
 
+hr {
+  height: 4px;
+  color: #000000;
+  box-sizing: content-box;
+}
+
+.line {
+  height: 4px;
+  background-color: #818181;
+  width: 100%;
+  border-radius: .25rem;
+}
+
 .numcontainer {
   display: flex;
   flex-direction: row;
@@ -346,7 +359,8 @@ ul.socials {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .col-6 {width: 50%;}
@@ -413,6 +427,11 @@ ul.socials {
   margin: 10px 20px;
 }
 
+.page-title {
+  font-family: tommy;
+  text-align: center;
+}
+
 @media screen and (max-width: 420px) {
   .lang-btns {
     flex-direction: column;
@@ -420,6 +439,9 @@ ul.socials {
     text-align: center;
     display: flex;
   }
+}
+
+@media screen and (max-width: 680px) {
   .info {
     display: flex;
     flex-direction: column;
@@ -429,5 +451,18 @@ ul.socials {
   .image-about {
     max-width: 100%;
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-picture {
+    max-width: 100%;
+  }
+  .project-text {
+    max-width: 100%;
   }
 }
