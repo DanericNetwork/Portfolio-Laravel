@@ -10,7 +10,7 @@
 
         <div class="project-text">
 
-            <a class="project-title" style="color: #34c0eb !important;" href="https://disbots.net/bot/funkie">Funkie</a>
+            <a class="project-title" href="https://disbots.net/bot/funkie">Funkie</a>
             <h3 class="project-desc">Uitgebracht op 18th Maart 2021.</h3>
             <p class="project-description">Funkie is een multipurpose Discord bot met meer dan 110 servers</p>
 
@@ -31,7 +31,7 @@
 
         <div class="project-text">
 
-            <a class="project-title" style="color: #34c0eb !important;" href="https://disbots.net/bot/funkie">Funkie</a>
+            <a class="project-title" href="https://disbots.net/bot/funkie">Funkie</a>
             <h3 class="project-desc">Uitgebracht op 18th Maart 2021.</h3>
             <p class="project-description">Funkie is een multipurpose Discord bot met meer dan 110 servers</p>
 
