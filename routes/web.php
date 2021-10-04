@@ -58,6 +58,7 @@ Route::get('/fix', function () {
 Route::get('/row', [\App\Http\Controllers\RowController::class, 'rowItems']);
 
 Route::get('/test', [\App\Http\Controllers\DayController::class, 'day']);
+Route::get('/testt', [\App\Http\Controllers\BtcController::class, 'showData']);
 
 Route::get('/form', [\App\Http\Controllers\FormController::class, 'index']);
 Route::post('/form', [\App\Http\Controllers\FormController::class, 'store']);
