@@ -470,3 +470,8 @@ ul.socials {
     max-width: 100%;
   }
 }
+
+.sick {
+  border-radius: .25rem;
+  border-color: #1c7fe2;
+}

@@ -53,6 +53,11 @@ Route::get('/fix', function () {
     return view('fix');
 });
 
+// Controller routes
+
 Route::get('/row', [\App\Http\Controllers\RowController::class, 'rowItems']);
 
 Route::get('/test', [\App\Http\Controllers\DayController::class, 'day']);
+
+Route::get('/form', [\App\Http\Controllers\FormController::class, 'index']);
+Route::post('/form', [\App\Http\Controllers\FormController::class, 'store']);
