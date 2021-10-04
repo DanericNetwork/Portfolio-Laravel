@@ -26,6 +26,7 @@
             <h1 class="error-code">@yield('code')</h1>
             <p class="error-message">@yield('message')</p>
             <a class="btn btn-primary" href="/">Go to Homepage</a>
+            <a class="btn btn-primary" onclick="history.back()">Go back</a>
     </div>
     </body>
 </html>
