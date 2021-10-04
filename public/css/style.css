@@ -262,7 +262,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #1d1c39;
+  background-color: #2F2E50;
   font-family: tommy;
   color: #fafafa;
   text-align: left;
@@ -291,7 +291,7 @@ ul.topnav li a {
 
 ul.topnav li a.active {
   /* background-color: #00247D; */
-  color: #25d5e4;
+  color: #66FBD2;
 }
 
 ul.topnav li.social-icons {
@@ -318,7 +318,7 @@ ul.socials {
 }
 
 .nav-btn:hover:not(.active), .social-icons:hover:not(.active) {
-  color: #747474;
+  color: #0B8486;
 }
 
 .navtop {
