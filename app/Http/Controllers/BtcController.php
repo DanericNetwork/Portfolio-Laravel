@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\HTTP;
+use Illuminate\Support\Facades\Http;
 
 class BtcController extends Controller
 {
