@@ -20,7 +20,7 @@ class BtcController extends Controller
     $btc= $data['bpi']['USD']['rate'];
     $date= $data['time']['updated'];
     // get the current bitcoin price
-    return view('btc')->with(['btc'=>$btc])->with(['date'=>$date]);
+    return view('btc', compact('btc','date'));
     // return the view with the data
 }
 }
