@@ -472,6 +472,24 @@ ul.socials {
 }
 
 .sick {
-  border-radius: .25rem;
+  border-radius: .5rem;
+  font-size: 15px;
+  border-width: 2px;
+  padding: 10px;
+  border-color: #1c7fe2;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid;
+  background-color: #2F2E50;
+  color: #fff;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.sick:hover {
+  border-color: #1c7fe2;
+}
+
+.sick:focus {
   border-color: #1c7fe2;
 }
