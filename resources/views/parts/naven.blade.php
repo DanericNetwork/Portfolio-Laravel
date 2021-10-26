@@ -1,5 +1,6 @@
-<nav>
-    <ul class="navtop">
+<div class="topp">
+    <nav>
+        <ul class="navtop" style="padding-left: 0px;">
         <li><a class="navbar-brand"><img src="../images/logo.png" class="imgnav"><span class="navbar-brand-name">Daneric Aalbers</span></a></li>
     </ul>
 </nav>
@@ -26,3 +27,4 @@
         </ul>
     </ul>
 </nav>
+</div>
