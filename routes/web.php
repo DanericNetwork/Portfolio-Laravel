@@ -62,3 +62,6 @@ Route::get('/testt', [\App\Http\Controllers\BtcController::class, 'showData']);
 
 Route::get('/form', [\App\Http\Controllers\FormController::class, 'index']);
 Route::post('/form', [\App\Http\Controllers\FormController::class, 'store']);
+
+Route::get('/tafel', [\App\Http\Controllers\TafelController::class, 'index']);
+Route::post('/tafel', [\App\Http\Controllers\TafelController::class, 'store']);
