@@ -65,3 +65,6 @@ Route::post('/form', [\App\Http\Controllers\FormController::class, 'store']);
 
 Route::get('/tafel', [\App\Http\Controllers\TafelController::class, 'index']);
 Route::post('/tafel', [\App\Http\Controllers\TafelController::class, 'store']);
+
+Route::get('/btw', [\App\Http\Controllers\BtwController::class, 'index']);
+Route::post('/btw', [\App\Http\Controllers\BtwController::class, 'store']);
