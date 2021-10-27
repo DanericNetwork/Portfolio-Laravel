@@ -9,4 +9,6 @@ const sr = ScrollReveal({
 /*SCROLL HOME*/
 sr.reveal('.info-text',{delay: 200}); 
 sr.reveal('.header-text',{delay: 400}); 
-sr.reveal('.image-about',{ interval: 200}); 
+
+/*SCROLL ABOUT*/
+sr.reveal('.text-about',{delay: 200}); 
