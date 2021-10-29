@@ -12,7 +12,4 @@
         </div>
         <img class="image-about" src="../images/logo.png">
     </div>
-<div class="card">
-    <a href="https://doei.nl" class="btn btn-primary">doei</a>
-</div>
 @endsection
