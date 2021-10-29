@@ -479,7 +479,7 @@ ul.socials {
   }
   .image-about {
     max-width: 200px;
-    margin-left: 0;
+    margin-left: 0px !important;
   }
 }
 
