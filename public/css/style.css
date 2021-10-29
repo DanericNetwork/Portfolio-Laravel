@@ -494,6 +494,9 @@ ul.socials {
   .project-text {
     max-width: 100%;
   }
+  .image-about {
+    margin-left: 4rem;
+  }
 }
 
 
