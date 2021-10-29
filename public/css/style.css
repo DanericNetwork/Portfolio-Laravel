@@ -266,7 +266,6 @@ ul.topnav {
   font-family: tommy;
   color: #fafafa;
   text-align: left;
-  width: 100%;
   position: sticky;
   top: 0;
   padding: 10px;
@@ -362,6 +361,24 @@ ul.socials {
       margin: auto;
       justify-content: center;
       float: none;
+  }
+  ul.topnav li a {
+      padding: 4px;
+  }
+
+  .navtop {
+    max-width: 100%;
+  }
+
+  .image-about {
+    max-width: 33%;
+    max-height: none;
+  }
+  .info {
+    max-width: 90%;
+  }
+  .topp {
+    max-width: 90%;
   }
 }
 
@@ -461,7 +478,7 @@ ul.socials {
     text-align: center;
   }
   .image-about {
-    max-width: 100%;
+    max-width: 200px;
     margin-left: 0;
   }
 }
@@ -478,6 +495,7 @@ ul.socials {
     max-width: 100%;
   }
 }
+
 
 .sick {
   border-radius: .5rem;
