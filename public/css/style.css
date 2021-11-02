@@ -350,37 +350,7 @@ ul.socials {
   margin-left: 10px;
 }
 
-@media screen and (max-width: 720px) {
-  ul.topnav li {
-      width: 100%;
-  }
-  ul.topnav a {
-      width: 100%;
-  }
-  ul.topnav li.social-icons {
-      margin: auto;
-      justify-content: center;
-      float: none;
-  }
-  ul.topnav li a {
-      padding: 4px;
-  }
 
-  .navtop {
-    max-width: 100%;
-  }
-
-  .image-about {
-    max-width: 33%;
-    max-height: none;
-  }
-  .info {
-    max-width: 90%;
-  }
-  .topp {
-    max-width: 90%;
-  }
-}
 
 /* Projects  */
 
@@ -470,18 +440,6 @@ ul.socials {
   }
 }
 
-@media screen and (max-width: 680px) {
-  .info {
-    display: flex;
-    flex-direction: column;
-    max-width: 80%;
-    text-align: center;
-  }
-  .image-about {
-    max-width: 200px;
-    margin-left: 0px !important;
-  }
-}
 
 @media screen and (max-width: 960px) {
   .project {
@@ -521,4 +479,59 @@ ul.socials {
 
 .sick:focus {
   border-color: #1c7fe2;
+}
+
+@media screen and (max-width: 720px) {
+  ul.topnav li {
+      width: 100%;
+  }
+  ul.topnav a {
+      width: 100%;
+  }
+  ul.topnav li.social-icons {
+      margin: auto;
+      justify-content: center;
+      float: none;
+  }
+  ul.topnav li a {
+      padding: 4px;
+  }
+
+  .navtop {
+    max-width: 100%;
+  }
+
+  .image-about {
+    max-width: 33%;
+    max-height: none;
+  }
+  .info {
+    max-width: 90%;
+  }
+  .topp {
+    max-width: 90%;
+  }
+  .about {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    text-align: center;
+  }
+  .image-about {
+    max-width: 80%;
+    margin-left: 0px !important;
+  }
+  .text-about {
+    max-width: 95%;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
 }
