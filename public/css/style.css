@@ -373,6 +373,7 @@ ul.socials {
   max-width: 60%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .project-title {
