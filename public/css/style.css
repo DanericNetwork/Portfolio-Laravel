@@ -372,7 +372,6 @@ ul.socials {
 .project-text {
   max-width: 60%;
   display: flex;
-  text-align: center;
   flex-direction: column;
 }
 
