@@ -29,7 +29,7 @@
 
         <div class="project-text">
 
-            <a class="project-title" href="https://disbots.net/bot/funkie">Funkie</a>
+            <a class="project-title" href="https://dsc.best/bot/funkie">Funkie</a>
             <h3 class="project-desc">Launched 18th March 2021.</h3>
             <p class="project-description">Funkie is a multipurpose Discord bot trusted by 110+ servers</p>
 
