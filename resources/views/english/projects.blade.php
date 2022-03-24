@@ -11,8 +11,8 @@
         <div class="project-text">
 
             <a class="project-title" href="https://cdn.my-project.nl">ShareX Uploader</a>
-            <h3 class="project-desc">Uitgebracht op 16 Maart 2022.</h3>
-            <p class="project-description">Dit is een image uploader voor het screenshot programma ShareX, ik heb dit project gemaakt in Javascript met ExpressJS.</p>
+            <h3 class="project-desc">Released 16th March 2022.</h3>
+            <p class="project-description">This is an image uploader for a screenshot application called ShareX, I made this project with Javascript and ExpressJS.</p>
 
         </div>
 
