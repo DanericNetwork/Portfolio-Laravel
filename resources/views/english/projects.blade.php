@@ -10,6 +10,25 @@
 
         <div class="project-text">
 
+            <a class="project-title" href="https://mojimind.nl">MojiMind</a>
+            <h3 class="project-desc">Released 3 December 2021.</h3>
+            <p class="project-description">Mojimind is a reimplementation of the classic game called mastermind, I've made this project together with a classmate.</p>
+
+        </div>
+
+        <div class="about-me image wow">
+
+            <img class="right-picture" style="border-radius: 10px;" width="500" src="https://cdn.my-project.nl/cdn/24aaf11fed61be9b" alt="Daneric">
+
+        </div>
+    </div>
+
+    <hr class="line">
+
+    <div class="project">
+
+        <div class="project-text">
+
             <a class="project-title" href="https://cdn.my-project.nl">ShareX Uploader</a>
             <h3 class="project-desc">Released 16th March 2022.</h3>
             <p class="project-description">This is an image uploader for a screenshot application called ShareX, I made this project with Javascript and ExpressJS.</p>
