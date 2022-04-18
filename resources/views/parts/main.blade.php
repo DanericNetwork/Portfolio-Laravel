@@ -9,7 +9,7 @@
     <meta property="og:title" content="Daneric" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="/" />
-    <meta property="og:image" content="{{$image}}" />
+    <meta property="og:image" content="{{$settings['image']}}" />
     <meta property="og:description" content="My portfolio website" />
     <meta name="theme-color" content="#65A30D">
 </head>
