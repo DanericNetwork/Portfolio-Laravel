@@ -13,4 +13,10 @@
         </div>
     </div>
 </div>
+<div class="flex flex-col items-center justify-center w-full font-medium pt-[350px] pb-[450px]" style="background-image: linear-gradient(176deg, #fff 80%, #1E293B calc(80% + 2px))">
+    <div class="flex flex-col justify-center w-4/6">
+        <h1 class="text-5xl text-left">Hey, I am {{$name}}</h1>
+        <h1 class="text-5xl text-left">A software developer</h1>
+    </div>
+</div>
 @endsection
