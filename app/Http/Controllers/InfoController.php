@@ -22,7 +22,7 @@ class InfoController extends Controller
 
     $settings=$ressettings[0];
     $projects=$resprojects[0];
-    $highlights=$reshighlights[0];
+    $highlights=array($reshighlights[0]);
     
     // settings data
     $name=$settings['name'];
@@ -30,8 +30,12 @@ class InfoController extends Controller
     $function=$settings['function'];
     $image=$settings['image'];
     $description=$settings['description'];
+
+    // highlights
+    $highlight1=$highlights[0][0];
+    $highlight2=$highlights[0][1];
     // return the view with the data
-    // dd($settings);
-    return view('index', compact('name','head','function', 'image', 'description', 'projects', 'highlights'));
+    // dd($highlight1->name);
+    return view('index', compact('name','head','function', 'image', 'description', 'projects', 'highlight1', 'highlight2', 'highlights'));
     }
 }
