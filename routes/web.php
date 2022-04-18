@@ -13,41 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
-// Dutch routes
-
-Route::get('/nl', function () {
-    return view('dutch.index');
-});
-
-Route::get('/nl/about', function () {
-    return view('dutch.about');
-});
-
-Route::get('/nl/projects', function () {
-    return view('dutch.projects');
-});
-
-// End of dutch routes
-
-// English routes
-
-Route::get('/en', function () {
-    return view('english.index');
-});
-
-Route::get('/en/about', function () {
-    return view('english.about');
-});
-
-Route::get('/en/projects', function () {
-    return view('english.projects');
-});
-
-// End of english routes
+Route::get('/', [\App\Http\Controllers\InfoController::class, 'showData']);
 
 Route::get('/fix', function () {
     return view('fix');
