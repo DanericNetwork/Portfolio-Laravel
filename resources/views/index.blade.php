@@ -65,6 +65,35 @@
         </div>
     </div>
 
+    <div class="flex flex-col items-center justify-center w-full mt-64" id="projects">
+        <h1 class="text-5xl font-medium text-center uppercase">Personal Projects</h1>
+        <hr class="flex items-center justify-center w-1/12 my-2 border-b-4 border-lime-600">
+    </div>
+
+    <div class="flex justify-center mt-10">
+        <div class="flex flex-row flex-wrap justify-around w-10/12">
+            @foreach ($projects as $project)
+                <div class="w-5/12 p-1 m-5">
+                    <div class="flex flex-col items-center justify-center w-full">
+                        <div class="relative">
+                            <img src="{{$project['image']}}" alt="{{$project['name']}}" class="w-full shadow-sm shadow-slate-500">
+                            <div class="absolute bottom-0 left-0 w-full p-2 -mt-16 leading-4 bg-gray-800 border-t-2 bg-opacity-90 border-lime-500">
+                                <div class="flex flex-row w-full">
+                                    <div class="float-left w-1/2">
+                                        <a href="{{$project['link']}}" class="text-xl font-medium transition hover:text-lime-400">{{$project['name']}}</a>
+                                    </div>
+                                    <div class="flex items-center justify-end w-1/2 text-right">
+                                        <h1 class="flex float-right font-medium text-right text-md">{{$project['tools']}}</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+
 </div>
 
 @endsection
