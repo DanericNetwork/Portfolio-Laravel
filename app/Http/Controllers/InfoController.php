@@ -36,6 +36,6 @@ class InfoController extends Controller
     $highlight2=$highlights[0][1];
     // return the view with the data
     // dd($highlight1->name);
-    return view('index', compact('name','head','function', 'image', 'description', 'projects', 'highlight1', 'highlight2', 'highlights'));
+    return view('index', compact('name','head','function', 'image', 'description', 'projects', 'highlight1', 'highlight2', 'highlights', 'settings'));
     }
 }

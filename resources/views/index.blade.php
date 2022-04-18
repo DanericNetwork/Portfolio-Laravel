@@ -94,6 +94,21 @@
         </div>
     </div>
 
+    <div class="flex flex-col items-center justify-center w-full mt-64" id="about">
+        <h1 class="text-5xl font-medium text-center uppercase">About Me</h1>
+        <hr class="flex items-center justify-center w-1/12 my-2 border-b-4 border-lime-600">
+    </div>
+    
+    <div class="flex flex-row justify-center my-10 mb-52">
+        <div class="flex flex-row justify-around w-10/12">
+            <div class="flex justify-center w-1/2">
+                <img src="{{$settings['image']}}" alt="Image" class="w-7/12 rounded-md">
+            </div>
+            <div class="w-1/2">
+                <p class="text-xl break-words">{{$settings['description']}}</p>
+            </div>
+        </div>
+    </div>
 </div>
 
 @endsection
